@@ -2,19 +2,124 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PDFusion 개인정보처리방침</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', -apple-system, sans-serif;
+    background: #0f1117;
+    color: #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+  }
+  .container {
+    max-width: 680px;
+    width: 100%;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+  .logo {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, #4A9EFF, #0066CC);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+  }
+  .header-text h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .header-text p {
+    font-size: 13px;
+    color: #666;
+    margin-top: 2px;
+  }
+  .card {
+    background: #1a1d26;
+    border: 1px solid #2a2d3a;
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin-bottom: 16px;
+  }
+  .card h2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4A9EFF;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+  }
+  .card p {
+    font-size: 15px;
+    color: #aaa;
+    line-height: 1.7;
+  }
+  .badge {
+    display: inline-block;
+    background: #0d2a4a;
+    color: #4A9EFF;
+    border: 1px solid #1a4a7a;
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 32px;
+  }
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #444;
+    font-size: 13px;
+  }
+  a { color: #4A9EFF; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
 </head>
 <body>
-<h1>PDFusion 개인정보처리방침</h1>
-<p>최종 수정일: 2026년 4월 27일</p>
-<p>PDFusion은 사용자의 개인정보를 수집하지 않습니다.</p>
-<h2>수집하는 정보</h2>
-<p>본 앱은 어떠한 개인정보도 수집, 저장, 전송하지 않습니다.</p>
-<h2>인터넷 연결</h2>
-<p>본 앱은 인터넷 연결 없이 로컬에서만 동작합니다.</p>
-<h2>파일 접근</h2>
-<p>사용자가 직접 선택한 PDF 파일만 처리하며, 해당 파일은 외부로 전송되지 않습니다.</p>
-<h2>문의</h2>
-<p>bsesoft@outlook.kr</p>
+<div class="container">
+  <div class="header">
+    <div class="header-text">
+      <h1>PDFusion</h1>
+      <p>개인정보처리방침</p>
+    </div>
+  </div>
+
+  <div class="badge">최종 수정일: 2026년 4월 27일</div>
+
+  <div class="card">
+    <h2>수집하는 정보</h2>
+    <p>PDFusion은 어떠한 개인정보도 수집, 저장, 전송하지 않습니다.</p>
+  </div>
+
+  <div class="card">
+    <h2>인터넷 연결</h2>
+    <p>본 앱은 인터넷 연결 없이 로컬에서만 동작합니다. 모든 PDF 처리는 사용자의 기기 내에서만 이루어집니다.</p>
+  </div>
+
+  <div class="card">
+    <h2>파일 접근</h2>
+    <p>사용자가 직접 선택한 PDF 파일만 처리하며, 해당 파일은 외부 서버로 전송되지 않습니다.</p>
+  </div>
+
+  <div class="card">
+    <h2>문의</h2>
+    <p><a href="mailto:bsesoft@outlook.kr">b4psa3@gmail.com</a></p>
+  </div>
+
+  <div class="footer">
+    © 2026 BSESoft · <a href="mailto:b4psa3@gmail.com">문의하기</a>
+  </div>
+</div>
 </body>
 </html>
